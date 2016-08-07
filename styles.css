@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url(assets/NexaHeavy.otf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Caecilia";
+    src: url(assets/CaeciliaLTStd-Light.otf);
+    font-weight: 200;
+    font-style: normal;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 667px;
+    font-size: 62.5%;
+    font-family: "Caecilia", serif;
+}
+
+.dabomb {
+    display: block;
+    height: 53px;
+    width: 170px;
+    background-image: url(images/dabomb.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 3px;
+}
+
+p {
+    font-size: 1.8em;
+    text-align: justify;
+    margin: 42px 0;
+}
+
+#badge-frame {
+    height: 267px;
+    border: 1px solid #e0e0e0;
+    background-color: #e0e0e0;
+    padding: 67px 53px;
+    position: relative;
+}
+
+#badge-frame h1 {
+    font: bold 3.2em "Nexa", sans-serif;
+    color: #2f4a5f;
+    margin-top: 0;
+}
+
+#badge-frame h2 {
+    font-size: 2.7em;
+    font-weight: normal;
+    color: #010101;
+}
+
+#badge {
+    width: 300px;
+    float: right;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fb-share-button {
+    position: absolute !important;
+    bottom: 100px;
+}
+
+#fundamentals #badge {
+    background: #fff url(images/fundamentals-badge.png) no-repeat center center;
+    background-size: 200px;
+}

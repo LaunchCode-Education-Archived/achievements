@@ -74,3 +74,8 @@ p {
     background: #fff url(images/fundamentals-badge.png) no-repeat center center;
     background-size: 200px;
 }
+
+#web-foundations #badge {
+    background: #fff url(images/web-foundations-badge.png) no-repeat center center;
+    background-size: 200px;
+}

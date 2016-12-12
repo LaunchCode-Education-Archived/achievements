@@ -79,3 +79,8 @@ p {
     background: #fff url(images/web-foundations-badge.png) no-repeat center center;
     background-size: 200px;
 }
+
+#skill-track #badge {
+    background: #fff url(images/skill-track-badge.png) no-repeat center center;
+    background-size: 200px;
+}
